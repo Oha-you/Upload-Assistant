@@ -369,6 +369,11 @@ config = {
             "api_key": "",
             "announce_url": "https://eiga.moi/announce/customannounceurl",
             "anon": False,
+            # Send uploads to AsianCinema modq for staff approval
+            "modq": False,
+            # Mark uploads as Internal if the flag is True AND the tag matches the list below
+            "internal": True,
+            "internal_groups": "['ARiN', 'iZON3']"
         },
         "AITHER": {
             # Instead of using the tracker acronym for folder name when sym/hard linking, you can use a custom name
